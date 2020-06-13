@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+	@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html,body{
+	background-color: hsl(229, 57%, 11%); 
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: Raleway;
+	font-weight: 200;
+	color: #fff;
+	font-size: 14px;
+}
+body{
+	
+	background-image: url(images/bg-desktop.svg);
+	background-repeat:  no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	text-align: center;
+	
+	
+}
+
+.left{
+	background-color: hsl(228, 56%, 26%);
+	display: inline;
+	float: left;
+	min-width: 250px;
+	height: 200px;
+	border-radius: 10px 75px 10px 10px;
+	position: relative;
+	top: 150px;
+	left: 258px;
+	margin: 2px;
+
+}
+
+.right{
+	background-color: hsl(228, 56%, 26%);
+	display: inline;
+	float: right;
+	min-width: 450px;
+	height: 160px;
+	border-radius: 10px 10px 10px 10px;
+	position: relative;
+	top: 190px;
+	right: 15%;
+	margin: 2px;
+
+}
+
+ .attribution { 
+ 	font-size: 11px;
+ 	color: #fff; 
+ 	text-align: center;
+ 	position: relative;
+ 	left: 5%;
+
+ }
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+.logo{
+	float: left;
+	position: relative;
+	top: 30px;
+	left:50px;
+	right:200px;
+}
+
+.icons
+{
+	
+	position: relative;
+	top: 110px;
+    right: 100px;
+	background-color: hsl(229, 57%, 11%);
+	padding: 10px;
+	margin: 13px;
+	border-radius: 20%;
+}
+
+progress {
+  border-radius: 50px; 
+  width: 85%;
+  height: 18px;
+  position: relative;
+  top: 52px;
+  left: 5px;
+}
+progress::-webkit-progress-bar {
+ background-color: hsl(229, 57%, 11%);
+ border-radius: 50px;
+}
+progress::-webkit-progress-value {
+	background-image: linear-gradient(to right,hsl(6, 100%, 80%) ,hsl(335, 100%, 65%));
+   height:12px;
+   position: relative;
+   top:3px;
+   left: 3px;
+   border-radius:50px; 
+}
+
+.para{
+	margin: 3px;
+	position: relative;
+  top: 40px;
+  left: -80px;
+    color: hsl(229, 7%, 55%);
+  
+}
+
+.para span{
+	font-weight: 700;
+	opacity: 1;
+	color: hsl(243, 100%, 93%);
+}
+
+.right #indicator{
+	display: inline-block;
+	background: #fff;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: relative;
+	top: 50.5px;
+	right: 78px;
+
+}
+
+.values{
+	display: inline-block;
+	float:left;
+	width: 100px;
+	position: relative;
+	top: 58px;
+	left:2px;
+	font-weight: 700;
+	color: hsl(229, 7%, 55%);
+}
+
+.end{
+	position: relative;
+	left:240px;
+}
+
+.popup{
+	display: inline-block;
+	background-color: #fff;
+	color: #000;
+	padding: 17px;
+	position: absolute;
+	top: -53px;
+	right: 59px;
+	width: 180px;
+	height: 75px;
+	border-radius: 12px;
+	font-size: 13px;
+	font-weight: 700;
+	color: #6b6a67; 
+	word-spacing: 3px;
+}
+
+.popup span:first-child{
+	font-size: 33px;
+	font-weight: 700;
+	color: #000;
+	text-align: left;
+}
+
+.popup span:nth-child(2){
+	position: relative;
+	top: -5px;
+}
+
+#triangledown{
+	display: inline-block;
+      width: 0;
+      height: 0;
+      border-left: 19px solid transparent;
+      border-right: 19px solid transparent;
+      border-top: 40px solid #fff;
+      position: relative;
+      top:6px;
+     right: -82px;
+     -webkit-transform: rotate(-28deg);
+     transform: rotate(-28deg);
+       
+
+    }
